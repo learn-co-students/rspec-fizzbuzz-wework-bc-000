@@ -1,0 +1,30 @@
+# if int % 3 == 0 # if the number int is divisible by 3
+# puts "Fizz" # Go fizz
+# elsif int % 5 == 0
+#  puts "Buzz"
+# elsif int % 3 == 0 && int % 5 == 0
+#  puts "Buzz" 
+# else
+#   puts "nil"
+# end
+
+
+#int = gets.to_i
+
+def fizzbuzz(int)
+
+  if int % 3 == 0 && int % 5 == 0          
+        return "FizzBuzz"
+        
+  elsif int % 3 == 0               
+        return "Fizz"
+    
+  elsif (int%5 == 0)          
+        return "Buzz"
+  else                  
+        return nil
+
+end
+end
+
+
